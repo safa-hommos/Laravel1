@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 90px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ nav img{
+    height: 80%;
+ }
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+nav ul a{
+    text-decoration: none;
+    color:gold;
+}
+.content{
+    background-image: url('/image.png');
+    background-size: cover;
+height: 500px;
+
+}
+ .pp form{
+    margin-left: 500px;
+     text-align: center;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+   justify-content: center;
+    width: 25%;
+}
+.ss{
+display: flex;
+justify-content: space-between;
+}
+.sh{
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 25vw;
+}
+
+footer{
+    text-align:justify;
+}
